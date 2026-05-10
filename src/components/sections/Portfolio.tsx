@@ -9,7 +9,7 @@ const projects = [
     title: "Brand Story: Cinematic Vision",
     category: "YouTube Longform",
     aspect: "aspect-video", // 16:9
-    video: "https://your-cdn-link.com/brand-story.mp4",
+    video: "https://vrh4baxttlu6myau.public.blob.vercel-storage.com/4.mp4",
     poster: "/posters/brand-story.jpg", // Saved in public/posters/
   },
   {
@@ -17,10 +17,26 @@ const projects = [
     title: "High-Retention Reel #1",
     category: "Instagram Reel",
     aspect: "aspect-[9/16] max-w-[350px] mx-auto", // 9:16
-    video: "https://your-cdn-link.com/reel-1.mp4",
+    video: "https://vrh4baxttlu6myau.public.blob.vercel-storage.com/1.mp4",
     poster: "/posters/reel-1.jpg",
   },
-  // ... Add other 2 reels here with aspect-[9/16]
+  {
+    id: "03",
+    title: "High-Retention Reel #2",
+    category: "Instagram Reel",
+    aspect: "aspect-[9/16] max-w-[350px] mx-auto", // 9:16
+    video: "https://vrh4baxttlu6myau.public.blob.vercel-storage.com/2.mp4",
+    poster: "/posters/reel-2.jpg",
+  },
+  {
+    id: "04",
+    title: "High-Retention Reel #3",
+    category: "Instagram Reel",
+    aspect: "aspect-[9/16] max-w-[350px] mx-auto", // 9:16
+    video: "https://vrh4baxttlu6myau.public.blob.vercel-storage.com/3.mp4",
+    poster: "/posters/reel-3.jpg",
+  },
+  // ... Add other reels here with aspect-[9/16]
 ];
 
 export default function Portfolio() {
