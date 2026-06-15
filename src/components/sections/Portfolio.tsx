@@ -14,6 +14,22 @@ const projects = [
   },
   {
     id: "02",
+    title: "Brand Story: Cinematic Vision #2",
+    category: "YouTube Longform",
+    aspect: "aspect-video", // 16:9
+    video: "https://vrh4baxttlu6myau.public.blob.vercel-storage.com/lv_0_20260515205632.mp4",
+    poster: "/posters/brand-story.jpg", // Saved in public/posters/
+  },
+  {
+    id: "03",
+    title: "High-Retention Reel #4",
+    category: "Instagram Reel",
+    aspect: "aspect-[9/16] max-w-[350px] mx-auto", // 9:16
+    video: "https://vrh4baxttlu6myau.public.blob.vercel-storage.com/REELL%209%20%281%29.mp4",
+    poster: "/posters/reel-4.jpg",
+  },
+  {
+    id: "04",
     title: "High-Retention Reel #1",
     category: "Instagram Reel",
     aspect: "aspect-[9/16] max-w-[350px] mx-auto", // 9:16
@@ -21,7 +37,7 @@ const projects = [
     poster: "/posters/reel-1.jpg",
   },
   {
-    id: "03",
+    id: "05",
     title: "High-Retention Reel #2",
     category: "Instagram Reel",
     aspect: "aspect-[9/16] max-w-[350px] mx-auto", // 9:16
@@ -29,13 +45,15 @@ const projects = [
     poster: "/posters/reel-2.jpg",
   },
   {
-    id: "04",
+    id: "06",
     title: "High-Retention Reel #3",
     category: "Instagram Reel",
     aspect: "aspect-[9/16] max-w-[350px] mx-auto", // 9:16
     video: "https://vrh4baxttlu6myau.public.blob.vercel-storage.com/3.mp4",
     poster: "/posters/reel-3.jpg",
-  },
+  }
+  
+   
   // ... Add other reels here with aspect-[9/16]
 ];
 
